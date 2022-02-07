@@ -19,7 +19,6 @@ public class desafio {
             //* Condição para que o While termine.
             contador = contador + 1;
 
-            //System.out.println("Entrando no metodo");
             int resultado = ultimo + penultimo;  // ou penultimo + ultimo = resultado
             //  resultado <- ultimo <- penultimo
             penultimo = ultimo;
