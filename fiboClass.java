@@ -65,6 +65,7 @@ public class fiboClass {
             //trecho de código que pode vir a lançar uma exceção
             for(int i = 0; i <= lenghtArray; i++ ) {
                 if (pares[i] == numeroPedido) {
+                    System.out.println("Seu número foi encontrado! Ele está na posição: " + i);
                     return true;
                     //Esse código joga uma excessão na pilha caso não encontre o número. Por isso o CATCH e o Try
                 }

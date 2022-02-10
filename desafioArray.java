@@ -17,9 +17,7 @@ public class desafioArray {
         System.out.println("Você gostaria de saber se algum número PAR está na lista? Digite ele agora: ");
                 int numeroPedido = sc.nextInt();
 
-                if(primeiro.taNaLista(12, numeroPedido)) {
-                    System.out.println("Ta na lista!");
-                }
+                primeiro.taNaLista(12, numeroPedido);
 
 
 
