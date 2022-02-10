@@ -14,6 +14,9 @@ public class desafio {
 
         int contador = 0;
         int soma = 0;
+        int[] listaPar = new int[35];
+        listaPar[0] = 1;
+        System.out.println(listaPar);
 
         while (contador < fibo) {
             //* Condição para que o While termine.
@@ -28,6 +31,7 @@ public class desafio {
             System.out.println("Sequencia: " + resultado);
 
             if (resultado % 2 == 0) {
+                
                 soma = soma + resultado;
 
                 System.out.println("achado o número par: " + resultado + " : " + soma);
