@@ -10,9 +10,9 @@ public class desafioArray {
 
         System.out.println("Quantos vezes nosso loop de fibonacci rodara? Caso seja 5 vezes, os números guardados serão [1, 1, 2, 3, 5] e assim por diante!");
 
-        int quantos = sc.nextInt();
+        int loops = sc.nextInt();
 
-        System.out.println(primeiro.calculaFibo(quantos));
+        System.out.println(primeiro.calculaFibo(loops));
 
         System.out.println("Você gostaria de saber se algum número PAR está na lista? Digite ele agora: ");
                 int numeroPedido = sc.nextInt();
