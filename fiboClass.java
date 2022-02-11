@@ -2,10 +2,6 @@ import java.util.Arrays;
 
 public class fiboClass {
 
-    public int ultimo;
-    public int penultimo;
-
-
     public int cArray = 0;
 
     public int soma = 0;
