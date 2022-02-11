@@ -5,9 +5,9 @@ public class fiboClass {
     public int ultimo;
     public int penultimo;
 
-    public int fibo;
+
     public int cArray = 0;
-    public int contador = 0;
+
     public int soma = 0;
     public int pares[] = new int[12];
 
@@ -33,7 +33,7 @@ public class fiboClass {
         int ultimo = 1;
         int penultimo = 0;
 
-        while (contador < fibo) {
+        for (int contador = 0; contador < fibo; contador++){
 
             int resultado = ultimo + penultimo;  // ou penultimo + ultimo = resultado
             penultimo = ultimo;
@@ -49,11 +49,10 @@ public class fiboClass {
                     //System.out.println("colocado no array ->" + pares[cArray]);
                     
                     soma = soma + resultado;
-                    
+                    //System.out.println(soma);
                     //System.out.println(Arrays.toString(pares));
                     cArray++;
                 }
-            contador++;
             }
         String obrigado = "\n";
         return obrigado;
